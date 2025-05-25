@@ -1,1 +1,3 @@
 # handwritten-number-classification
+
+This project is a simple yet powerful handwritten digit recognizer built using a Convolutional Neural Network (CNN) trained on the MNIST dataset. It takes 28x28 grayscale images of digits (0–9) and learns to identify them accurately. The model is built with TensorFlow and Keras, with preprocessing steps to clean and format the input data. Once trained, it can be tested on your own handwritten digit images—even ones not in the original dataset—and it will predict what number it sees. The notebook also lets you test multiple images at once, making it a fun and interactive way to explore digit classification with AI.
