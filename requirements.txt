@@ -1,2 +1,6 @@
 sklearn
 joblib
+streamlit
+scikit-learn
+numpy
+matplotlib
