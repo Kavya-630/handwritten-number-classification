@@ -14,6 +14,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 import matplotlib.pyplot as plt
+scaler=joblib.load("StandardScaler.pkl")
+svm_model = joblib.load("SVC.pkl")
+knn_model = joblib.load("KNeighborsClassifier.pkl")
+rf_model = joblib.load("RandomForestClassifier.pkl")
+lr_model = joblib.load("LogisticRegression.pkl")
+mlp_model = joblib.load("MLPClassifier.pkl")
 
 # Set up the Streamlit page
 st.set_page_config(page_title="Handwritten Digit Classifier", layout="centered")
